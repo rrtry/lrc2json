@@ -59,16 +59,4 @@ class LRC:
                 timestamp = minutes * 60 * 1000 + seconds * 1000 + millis
                 synced_lyrics_dict[timestamp] = lyrics
 
-        return synced_lyrics_dict     
-    
-    
-                
-
-        
-        
-        
-    
-
-    
-        
-    
+        return synced_lyrics_dict
